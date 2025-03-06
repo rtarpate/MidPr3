@@ -57,6 +57,8 @@ namespace MidPr3
 
 
 
+
+
             //creates a new array using user input
             // Char[] UserArray = new Char[userinput.Length];
 
@@ -64,36 +66,45 @@ namespace MidPr3
             //revesers array
             // Array.Reverse(UserArray);
 
-            Convert.ToDouble(userinput);
+            /*
+            Convert.ToInt32(userinput);
 
             Math.Abs(userinput.Length);
 
             revesrestring = Convert.ToString(userinput);
 
             return revesrestring;
+            */
 
-            /*
+            Convert.ToByte(userinput, 16);
+
+            Math.Abs
+
+            
             foreach (char c in userinput)
             {
 
-                userinput 
+                c = 
 
      
             }
-            */
-
-          
-                /*
             revesrestring = userinput;
+            
 
-            return revesrestring;
+
             /*
-            //array and sets it = reversstring 
-            return new string(UserArray);
+        revesrestring = userinput;
 
-            //retruns the revessstring
+        return revesrestring;
+        /*
+        //array and sets it = reversstring 
+        return new string(UserArray);
+
+        //retruns the revessstring
+        return revesrestring;
+        */
+
             return revesrestring;
-            */
                 
 
         }
@@ -139,7 +150,7 @@ namespace MidPr3
             */
 
 
-            Convert.ToDouble(userinput);
+            Convert.ToInt32(userinput);
 
             Math.Abs(userinput.Length);
 
